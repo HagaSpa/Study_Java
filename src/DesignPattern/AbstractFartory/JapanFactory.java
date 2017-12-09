@@ -5,4 +5,9 @@ public class JapanFactory implements Factory {
 	public Capital getCapital() {
 		return new Tokyo();
 	}
+
+	@Override
+	public Language getLanguage() {
+		return new Japanese();
+	}
 }

@@ -5,4 +5,9 @@ public class UsaFactory implements Factory {
 	public Capital getCapital() {
 		return new WashingtonDC();
 	}
+
+	@Override
+	public Language getLanguage() {
+		return new English();
+	}
 }
